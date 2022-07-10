@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "module": "esNext",
+      "target": "esnext",
+      "moduleResolution": "node",
+      "allowJs": false,
+      "emitDeclarationOnly": true,
+      "strict": true,
+      "jsx": "preserve",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "noImplicitAny": false,
+      "declaration": true,
+      "baseUrl": "/workspace/replace-tspaths-repro/src",
+      "skipLibCheck": true,
+      "incremental": true,
+      "outDir": "src",
+      "paths": {
+        "*": [
+            "/workspace/replace-tspaths-repro/src/*",
+          ],
+        "@": [
+          "/workspace/replace-tspaths-repro/src/index"
+        ],
+        "@/*": [
+            "/workspace/replace-tspaths-repro/src/*"
+        ]
+      },
+    },
+    "include": [
+        "/workspace/replace-tspaths-repro/src/**/*"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }

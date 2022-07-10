@@ -1,0 +1,26 @@
+{
+  "name": "replace-tspaths-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "replace": "resolve-tspaths -o dist -s src",
+    "build": "swc src --out-dir dist --ignore dist,node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wintercounter/replace-tspaths-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wintercounter/replace-tspaths-repro/issues"
+  },
+  "homepage": "https://github.com/wintercounter/replace-tspaths-repro#readme",
+  "dependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.211",
+    "resolve-tspaths": "^0.7.0"
+  }
+}
